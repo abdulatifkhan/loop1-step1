@@ -31,29 +31,45 @@ body {
   overflow: hidden;
 }
 
-  .tech-wrapper {
+.tech-wrapper {
   background-color: rgb(105, 158, 228);
 }
 
 .tech-list {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 15px 10px 15px 10px;
   margin-top: 100px;
-  padding-top: 50px;
   display: flex;
   justify-content: space-around;
   background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 15px 15px 30px 30px rgba(0, 0, 0, 0.1);
 }
 
 .tech-item {
+  width: 295px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  cursor: pointer;
+  transition: all 0.3s all;
+}
+
+.tech-item:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.tech-img {
+  width: 64px;
+  height: 64px;
+  margin-top: 20px;
 }
 
 .tech-heading {
   color: rgb(105, 158, 228);
+  margin: 0;
+  margin-top: 30px;
 }
 
 .tech-text {
@@ -67,4 +83,5 @@ body {
   font-size: 24px;
   font-weight: 800;
   color: rgb(105, 158, 228);
+  margin: 0;
 }
